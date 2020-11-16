@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Combyne test suite">
+	<test name="Login">
+		<parameter name="EmailAddress" value="demo@gmail.com" />
+		<parameter name="Password" value="demo@123" />
+		<parameter name="InvalidEmailAddress" value="Abc@gmail.com" />
+		<parameter name="InvalidPassword" value="test@123" />
+		<classes>
+			<class name="Combyne.testngframework.CombyneLogin" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
